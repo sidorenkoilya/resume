@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a0d0de3;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: rgb(228, 0, 0); /* Резервний колір */
+    background: linear-gradient(180deg, rgb(85, 83, 83), rgb(247, 7, 7));
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+/* Стиль для контактів */
+.contact-info p {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Виділення при наведенні на контакти */
+.contact-info p:hover {
+    color: #ff6347; /* Наприклад, колір томата */
+    transform: scale(1.05); /* Легке збільшення */
+}
+
+/* Стиль для навичок */
+.skills ul li {
+    background-color: #c4c4c4;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Виділення при наведенні на навички */
+.skills ul li:hover {
+    background-color: #ff6347; /* Зміна кольору при наведенні */
+    transform: scale(1.05); /* Легке збільшення елемента */
+}
+
+
+
+
+
+.photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Приховуємо стандартне форматування посилань */
+.contact-info a {
+    color: inherit; /* Залишаємо колір таким, як у тексту */
+    text-decoration: none; /* Прибираємо підкреслення */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Додаємо ефект при наведенні */
+.contact-info a:hover {
+    color: #ff6347; /* Наприклад, колір томата при наведенні */
+    transform: scale(1.05); /* Легке збільшення */
+}
+
+
+.contact-info h2, .skills h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #c4c4c4;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    margin-top: 20px;
+}
